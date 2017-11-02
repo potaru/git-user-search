@@ -1,0 +1,11 @@
+<div>
+  <form>
+    <label>name: </label>
+    <input [(ngModel)]="username" name="user">
+    <p>{{username}}</p>
+    <button type="submit" (click)="onSubmit()">검색</button>
+    <p>{{git_name}}</p>
+    <img src={{git_img}}>
+    <a href={{git_url}}>{{git_url}}</a>
+  </form>
+</div>
